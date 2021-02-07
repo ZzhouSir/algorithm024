@@ -5,7 +5,7 @@ import java.util.Map;
 /**
  * 题目：有效的字母异位词
  */
-class Solution {
+public class Solution {
     public boolean isAnagram(String s, String t) {
         if (s.length() == t.length()) {
             // 解法一：
