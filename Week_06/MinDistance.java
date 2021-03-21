@@ -1,7 +1,7 @@
 /**
  * 题目：编辑距离
  */
-public class Solution {
+public class MinDistance {
     public int minDistance(String word1, String word2) {
         int len1 = word1.length();
         int len2 = word2.length();

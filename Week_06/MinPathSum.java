@@ -1,7 +1,7 @@
 /**
  * 题目：最小路径和
  */
-public class Solution {
+public class MinPathSum {
 
     public int minPathSum(int[][] grid) {
         int n = grid.length;

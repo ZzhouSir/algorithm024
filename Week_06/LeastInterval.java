@@ -1,7 +1,7 @@
 /**
  * 题目：任务调度器
  */
-public class Solution {
+public class LeastInterval {
     public int leastInterval(char[] tasks, int n) {
         if (tasks.length <= 1 || n < 1) return tasks.length;
         int[] counts = new int[26];

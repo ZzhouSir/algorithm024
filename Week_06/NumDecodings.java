@@ -1,7 +1,7 @@
 /**
  * 题目：解码方法
  */
-public class Solution {
+public class NumDecodings {
     public int numDecodings(String s) {
         char[] arr = s.toCharArray();
         int[] dp = new int[s.length()+1];
